@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gdbundle-gdb-dashboard"
+version = "0.11.4"
+description = "gdbundle wrapper for cyrus-and/gdb-dashboard"
+authors = ["Tyler Hoffman <tyler@memfault.com>"]
+readme = "README.md"
+include = ["gdbundle_gdb_dashboard/scripts/*.gdb"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
