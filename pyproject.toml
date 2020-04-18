@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gdbundle-gdb-dashboard"
-version = "0.11.4.post0"
+version = "0.11.4-1"
 description = "gdbundle plugin for cyrus-and/gdb-dashboard"
 authors = ["Tyler Hoffman <tyler@memfault.com>"]
 readme = "README.md"
